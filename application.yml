@@ -1,0 +1,28 @@
+
+server:
+  port: 8080
+spring:
+  data:
+    cassandra:
+     keyspace-name: main
+     username: hbysYIsIXPCkrjpvluRktgNh
+     password: jU3I+,65lCx0efbRwpd64bjqg2EjvSPS+CvnTZEeDRRxq2Zo3zeT_lS+vMpmXlJNQZZ50ldOouf1Rzz,ep-8zC52ozk3Z8f7H,fymKkmsRrCKc18Z-JbOYmjFjxRz2+Q
+     schema-action: create-if-not-exists
+     request:
+      timeout: 10s
+     connection:
+      connect-timeout: 10s
+      init-query-timeout: 10s
+     
+     
+datastax.astra:
+        secure-connect-bundle: secure-connect-book.zip
+
+astra.db:
+     id: 747b4aa7-9177-41c2-b485-377986d970b4-1
+     region: asia-south1
+     keyspace: main
+     application.token: hbysYIsIXPCkrjpvluRktgNh:0b447a291700d60b966d8c02ed61457d403e9967ada06f476ff69db8446742f1
+
+    
+    
